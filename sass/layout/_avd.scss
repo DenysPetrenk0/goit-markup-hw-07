@@ -1,0 +1,36 @@
+.adv {
+    display: flex;   
+    justify-content: space-between;
+    margin-left: -30px;     
+}
+
+.avd__indent {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-color);    
+}
+
+.adv__item {   
+    flex-basis: calc((100% - 90px) / 4);
+    margin-left: 30px;    
+}
+
+.avd__icon {
+    width: 70px;
+    height: 66px;
+}
+
+.avd-icon-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avd__icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+    margin-bottom: 30px;
+}
