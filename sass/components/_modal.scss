@@ -14,7 +14,7 @@
     }
 }
 
-.close-btn {
+.close__btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -27,17 +27,17 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
-.close-btn-icon {
+.close__btn__icon {
     width: 11px;
     height: 11px;
     fill: #000000;
     
-    .close-btn:hover & {
+    .close__btn:hover & {
         fill: var(--link-color)
     }
 }
 
-.modal-title {
+.modal__title {
     font-weight: bold;
     font-size: 20px;
     line-height: 1.15;
