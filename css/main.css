@@ -494,6 +494,8 @@ ul {
   justify-content: center;
   align-items: center;
   background: var(--bg-color);
+  height: 120px;
+  border-radius: 4px;
   margin-bottom: 30px;
 }
 
